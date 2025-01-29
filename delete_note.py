@@ -68,6 +68,8 @@ def delete_notes(notes):
 
                 print("Удалено записей: ", len(notes_to_delete))
                 return new_notes
+    else:
+        print("Cписок заметок еще пуст.")
 
     return notes
 
